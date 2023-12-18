@@ -28,9 +28,7 @@ class square():
 
 if __name__ == "__main__":
 
-    from sys import argv 
-
-    s = square(width=int(argv[1]), height=int(argv[2]))
+    s = square(width=12, height=12)
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
